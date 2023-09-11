@@ -48,7 +48,6 @@ let items1 = [
     disPrice: "25500",
   },
 ];
-
 let t1 = document.getElementById("data");
 let t2 = document.getElementById("datasearch");
 
@@ -146,4 +145,3 @@ function searchProduct() {
     resultsContainer.innerHTML = "";
   }
 }
-
