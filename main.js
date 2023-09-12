@@ -58,29 +58,26 @@ for (let i = 0; i < items1.length; i++) {
   discount = discount.toFixed(0);
 
   t1.innerHTML += `
-          <div class="col-lg-4 mb-3 d-flex align-items-stretch">
-              <div class="card mx-auto" style="width:200rem;">
-                  <img src=${items1[i].image} style="width:50%;height:35%" class="card-img-top img-fluid  mx-auto" alt="Card Image">
-                  <div class="card-body d-flex flex-column">
-                      <div class="mb-2">
-                          <h6 class="font-weight-semibold mb-2">
-                              <a  href="#" class="text-default mb-2" data-abc="true">
-                              ${items1[i].name}
-                              </a>
-                          </h6>
-                          <a  href="#" class="text-muted" data-abc="true">${items1[i].categories}</a>
-                      </div>
-                      <h4  class="mb-0 font-size-100 font-weight-semibold">MRP: ₹<s>${items1[i].price}</s>
-                          <Span  class="discount">${discount}%OFF</Span>
-                      </h4>
-                      <h3 class="mb-1 font-weight-semibold">₹${items1[i].disPrice}</h3>
-                      <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to
-                          cart</button>
-                  </div>
-              </div>
-          </div>
-      `;
-}
+  <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+    <div class="card mx-auto">
+        <img src="${items1[i].image}" class="card-img-top img-fluid" alt="Card Image">
+        <div class="card-body d-flex flex-column">
+            <div class="mb-2">
+                <h6 class="font-weight-semibold mb-2">
+                    <a href="#" class="text-default mb-2" data-abc="true">${items1[i].name}</a>
+                </h6>
+                <a href="#" class="text-muted" data-abc="true">${items1[i].categories}</a>
+            </div>
+            <h4 class="mb-0 font-size-100 font-weight-semibold">MRP: ₹<s>${items1[i].price}</s>
+                <span class="discount">${discount}% OFF</span>
+            </h4>
+            <h3 class="mb-1 font-weight-semibold">₹${items1[i].disPrice}</h3>
+            <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
+        </div>
+    </div>
+</div>
+
+         
 
 function searchProduct() {
   // Get the search input value
