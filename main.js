@@ -40,14 +40,14 @@ let items1 = [
     disPrice: "190",
   },
   {
-    image:
-      "data:image/jpeg;base64,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",
+    image: "data:image/jpeg;base64,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",
     name: "Sony WH-CH720N, Wireless Over-Ear Active Noise",
     categories: "Electronic",
     price: "2000",
     disPrice: "25500",
   },
 ];
+
 let t1 = document.getElementById("data");
 let t2 = document.getElementById("datasearch");
 
@@ -58,87 +58,83 @@ for (let i = 0; i < items1.length; i++) {
   discount = discount.toFixed(0);
 
   t1.innerHTML += `
-  <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-    <div class="card mx-auto">
-        <img src="${items1[i].image}" class="card-img-top img-fluid" alt="Card Image">
-        <div class="card-body d-flex flex-column">
-            <div class="mb-2">
-                <h6 class="font-weight-semibold mb-2">
-                    <a href="#" class="text-default mb-2" data-abc="true">${items1[i].name}</a>
-                </h6>
-                <a href="#" class="text-muted" data-abc="true">${items1[i].categories}</a>
-            </div>
-            <h4 class="mb-0 font-size-100 font-weight-semibold">MRP: ₹<s>${items1[i].price}</s>
-                <span class="discount">${discount}% OFF</span>
-            </h4>
-            <h3 class="mb-1 font-weight-semibold">₹${items1[i].disPrice}</h3>
-            <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
-        </div>
-    </div>
-</div>
+          <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+              <div class="card mx-auto" style="width:200rem;">
+                  <img src=${items1[i].image} style="width:50%;height:35%" class="card-img-top img-fluid  mx-auto" alt="Card Image">
+                  <div class="card-body d-flex flex-column">
+                      <div class="mb-2">
+                          <h6 class="font-weight-semibold mb-2">
+                              <a  href="#" class="text-default mb-2" data-abc="true">
+                              ${items1[i].name}
+                              </a>
+                          </h6>
 
-         
+                          <a  href="#" class="text-muted" data-abc="true">${items1[i].categories}</a>
+                      </div>
+                      <h4  class="mb-0 font-size-100 font-weight-semibold">MRP: ₹<s>${items1[i].price}</s>
+                          <Span  class="discount">${discount}%OFF</Span>
+                      </h4>
+                      <h3 class="mb-1 font-weight-semibold">₹${items1[i].disPrice}</h3>
 
+                      <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to
+                          cart</button>
+                  </div>
+              </div>
+          </div>
+      `;
+}
 function searchProduct() {
-  // Get the search input value
-  let searchValue = document.getElementById("searchBox").value.toLowerCase();
-
-  // Filter items based on the search value
-  let filteredProducts = items1.filter((item) => {
-    const itemName = item.name.toLowerCase();
-    const itemType = item.categories.toLowerCase();
-
-    return itemName.includes(searchValue) || itemType.includes(searchValue);
+  let value1 = document.getElementById("searchBox").value;
+  let serchProducts = items1.filter((item) => {
+    return (
+      item.name.toLowerCase().includes(value1.toLowerCase()) ||
+      item.type.toLowerCase().includes(value1.toLowerCase())
+    );
   });
 
-  // Get the container element where you want to display the results
-  let resultsContainer = document.getElementById("datasearch");
+  t2.innerHTML = "";
+  for (let i = 0; i < serchProducts.length; i++) {
+    console.log(1);
+    let discount =
+      ((serchProducts[i].mainPrice - serchProducts[i].discountPrice) /
+        serchProducts[i].mainPrice) *
+      100;
+    discount = discount.toFixed(0);
 
-  // Clear the previous results
-  resultsContainer.innerHTML = "";
+    t2.innerHTML += `
+    
+          <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+              <div class="card mx-auto" style="width:20rem;">
+                  <img src=${serchProducts[i].image} style="width:30%;height:35%" class="card-img-top img-fluid  mx-auto" alt="Card Image">
+                  <div class="card-body d-flex flex-column">
+                      <div class="mb-2">
+                          <h6 class="font-weight-semibold mb-2">
+                              <a  href="#" class="text-default mb-2" data-abc="true">
+                              ${serchProducts[i].name}
+                              </a>
+                          </h6>
 
-  // Iterate through the filtered products and generate HTML for each
-  filteredProducts.forEach((product) => {
-    // Calculate the discount percentage
-    let discountPercentage =
-      ((product.mainPrice - product.discountPrice) / product.mainPrice) * 100;
-    discountPercentage = discountPercentage.toFixed(0);
-
-    // Create a new product card element
-    let productCard = document.createElement("div");
-    productCard.className = "col-lg-4 mb-3 d-flex align-items-stretch";
-    productCard.innerHTML = `
-      <div class="card mx-auto" style="width:20rem;">
-        <img src="${product.image}" style="width:30%;height:35%" class="card-img-top img-fluid mx-auto" alt="Card Image">
-        <div class="card-body d-flex flex-column">
-          <div class="mb-3">
-            <h6 class="font-weight-semibold mb-2">
-              <a href="#" class="text-default mb-2" data-abc="true">${product.name}</a>
-            </h6>
-            <a href="#" class="text-muted" data-abc="true">${product.type}</a>
+                          <a  href="#" class="text-muted" data-abc="true">${serchProducts[i].type}</a>
+                      </div>
+                      <h4  class="mb-0 font-weight-semibold">MRP: ₹<s>${serchProducts[i].price}</s>
+                          <Span  class="discount">${discount}%OFF</Span>
+                      </h4>
+                      <h3 class="mb-1 font-weight-semibold">₹${serchProducts[i].disPrice}</h3>
+                      <div>
+                          <i class="fa fa-star star"></i>
+                          <i class="fa fa-star star"></i>
+                          <i class="fa fa-star star"></i>
+                          <i class="fa fa-star star"></i>
+                      </div>
+                      <div class="text-muted mb-3">34 reviews</div>
+                      <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to
+                          cart</button>
+                  </div>
+              </div>
           </div>
-          <h4 class="mb-0 font-weight-semibold">MRP: ₹<s>${product.price}</s>
-            <span class="discount">${discountPercentage}% OFF</span>
-          </h4>
-          <h3 class="mb-1 font-weight-semibold">₹${product.disPrice}</h3>
-          <div>
-            <i class="fa fa-star star"></i>
-            <i class="fa fa-star star"></i>
-            <i class="fa fa-star star"></i>
-            <i class="fa fa-star star"></i>
-          </div>
-          <div class="text-muted mb-3">34 reviews</div>
-          <button type="button" class="btn bg-cart"><i class="fa fa-cart-plus mr-2"></i> Add to cart</button>
-        </div>
-      </div>
-    `;
-
-    // Append the product card to the results container
-    resultsContainer.appendChild(productCard);
-  });
-
-  // If the search input is empty, clear the results
-  if (searchValue === "") {
-    resultsContainer.innerHTML = "";
+      `;
+  }
+  if (value1 === "") {
+    t2.innerHTML = "";
   }
 }
